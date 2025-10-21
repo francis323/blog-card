@@ -3,12 +3,47 @@
   margin: 0;
   padding: 0;
   font-family: 'Figtree', sans-serif;
+  line-height: 1.5;
+  word-spacing: 0px;
+  gap: 0px;
 }
+
+:root{
+    --Yellow-blog: #F4D04E;
+    --Gray-blog-500: #6B6B6B;
+    --Gray-blog-950: #111111;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    
+    background-color: var(--Yellow-blog);
+    padding: 25px;
+    gap:24px
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--Gray-blog-950);
+}
+
+
+.text-preset1{
+    font-size: 16px;
+    color: var(--Gray-blog-950);
+    font-weight: 500; 
+}
+.text-preset2{
+    font-size: 14px;
+    color: var(--Gray-blog-950);
+    font-weight: 500; 
+}
+.text-preset3{
+    font-size: 14px;
+    color: var(--Gray-blog-950);
+    font-weight: 800; 
 }
