@@ -30,6 +30,10 @@ h3{
     font-weight: 800;
     color: var(--Gray-blog-950);
 }
+h3:hover{
+    color: var(--Yellow-blog);
+    cursor: pointer;
+}
 
 
 .text-preset1{
